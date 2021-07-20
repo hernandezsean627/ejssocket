@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
-const dbUrl = 'mongodb+srv://mernproject:mernproject@cluster0.kymbq.mongodb.net/merntest?retryWrites=true&w=majority'
+const dbUrl = 
 
 mongoose.connect( dbUrl
 , {
